@@ -1,43 +1,43 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - program entry point
- * Description: Print all possible different combinations of three digits
+ * main - Program entry point
+ * Description: Prints all possible combinations of three digit numbers
  * Return: 0
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e = 0;
+	int i = 0;
+	int y;
+	int x;
 
-	while (e < 10)
+	while (i < 10)
 	{
-		d = 0;
-		while (d < 10)
+		x = 0;
+		while (x < 10)
 		{
-			c = 0;
-			while (c < 10)
+			y = 0;
+			while (y < 10)
 			{
-				if (c != d && d != e && e < d && d < c)
+				if (y != x && x != i && i < x && x < y)
 				{
-					putchar('0' + e);
-					putchar('0' + d);
-					putchar('0' + c);
+					putchar('0' + i);
+					putchar('0' + x);
+					putchar('0' + y);
 
-					if (c + d + e != 9 + 8 + 7)
+					if (y + x + i != 9 + 8 + 7)
 					{
 						putchar(',');
 						putchar(' ');
 					}
 				}
-				c++;
+				y++;
 			}
-			d++;
+			x++;
 		}
-		e++;
+		i++;
 	}
+
 	putchar('\n');
 
 	return (0);
