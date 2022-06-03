@@ -3,18 +3,18 @@
 #include <stdlib.h>
 
 /**
- * main - program entry point
- * Description: Print lowercase alphabet letters in reverse
+ * main - Program entry point
+ * Description: Prints lowercase letters of the alphabet in reverse
  * Return: 0
  */
 int main(void)
 {
-	char c = 'z';
+	char x = 'z';
 
-	while (c >= 'a')
+	while (x >= 'a')
 	{
-		putchar(c);
-		c--;
+		putchar(x);
+		x--;
 	}
 
 	putchar('\n');
