@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - program entry point
+ * main - Program entry point
  * Description: Prints all single digit base 10 numbers starting from 0
  * Return: 0
  */
