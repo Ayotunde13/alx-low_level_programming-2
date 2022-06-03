@@ -2,7 +2,7 @@
 
 /**
  * main - Program entry point
- * Description: Prints all possible combinations of two two-digit numbers
+ * Description: Prints all possible combinations of two-digit numbers
  * Return: 0
  */
 int main(void)
@@ -10,7 +10,6 @@ int main(void)
 	int x;
 	int y;
 	int max = 100;
-
 
 	for (x = 0; x < max ; x++)
 	{
