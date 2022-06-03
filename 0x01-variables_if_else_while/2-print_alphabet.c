@@ -1,19 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - program entry point
- * Description: Print the alphabet in lowercase
+ * main - Program entry point
+ * Description: Prints the letters of the alphabet in lowercase
  * Return: 0
  */
 int main(void)
 {
-	char c = 'a';
+	char x = 'a';
 
-	while (c <= 'z')
+	while (x <= 'z')
 	{
-		putchar(c);
-		c++;
+		putchar(x);
+		x++;
 	}
 
 	putchar('\n');
