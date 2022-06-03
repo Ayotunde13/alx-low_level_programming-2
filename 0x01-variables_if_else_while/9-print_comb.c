@@ -1,26 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - program entry point
- * Description: Print all possible combinations of single-digit numbers.
+ * main - Program entry point
+ * Description: Prints all possible combinations of single-digit numbers
  * Return: 0
  */
 int main(void)
 {
-	int i = 0;
+	int x = 0;
 
-	while (i < 10)
+	while (x < 10)
 	{
-		putchar(48 + i);
+		putchar(48 + x);
 
-		if (i != 9)
+		if (x != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
 
-		i++;
+		x++;
 	}
 
 	putchar('\n');
