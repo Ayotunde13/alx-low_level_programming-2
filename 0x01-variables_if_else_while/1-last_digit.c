@@ -3,24 +3,26 @@
 #include <stdlib.h>
 
 /**
- * main - program entry point
+ * main - Program entry point
+ * Description: Prints a random num and whether it's greater than 5,
+ * equal to 0 or less than 6 and not equal to 0
  * Return: 0
  */
 int main(void)
 {
 	int n;
-	int last;
+	int x;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	last = n % 10;
+	x = n % 10;
 
-	if (last > 5)
-		printf("Last digit of %i is %i and is greater than 5\n", n, last);
-	else if (last == 0)
-		printf("Last digit of %i is %i and is 0\n", n, last);
-	else if (last < 6)
-		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last);
+	if (x > 5)
+		printf("Last digit of %i is %i and is greater than 5\n", n, x);
+	else if (x == 0)
+		printf("Last digit of %i is %i and is 0\n", n, x);
+	else if (x < 6)
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, x);
 
 	return (0);
 }
