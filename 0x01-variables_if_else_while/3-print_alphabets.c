@@ -2,7 +2,8 @@
 
 /**
  * main - Program entry point
- * Description: Prints the letters of the alphabet in lowercase first and then in uppercase
+ * Description: Prints the letters of the alphabet in lowercase first
+ * followed by uppercase letters
  * Return: 0
  */
 int main(void)
@@ -16,7 +17,7 @@ int main(void)
 		x++;
 	}
 
-	while( y <= 'Z')
+	while (y <= 'Z')
 	{
 		putchar(y);
 		y++;
