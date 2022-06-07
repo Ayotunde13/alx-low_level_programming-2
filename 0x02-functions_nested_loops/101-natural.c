@@ -9,8 +9,9 @@
 int main(void)
 {
 	int i;
-	int z = 0;
-	int y = 0;
+	int z;
+	int y;
+	int x;
 
 	for (i = 0; i < 1024; ++i)
 	{
@@ -20,7 +21,7 @@ int main(void)
 			y += i;
 	}
 
-	int x = z + y;
+	x = z + y;
 
 	printf("%i\n", x);
 
