@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Function prototype
+ * _isalpha - Function prototype
  * Description: Checks if a character is a letter
  * @c: The ascii character to be checked
  * Return: 1 if it is a letter otherwise 0
