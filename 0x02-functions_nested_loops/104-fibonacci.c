@@ -18,7 +18,7 @@ int main(void)
 		x = y;
 		y = z;
 
-		printf("%lu\n", z);
+		printf("%lu", z);
 
 		if (i < 97)
 			printf(", ");
