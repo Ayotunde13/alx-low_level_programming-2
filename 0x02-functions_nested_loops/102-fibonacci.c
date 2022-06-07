@@ -13,7 +13,7 @@ int main(void)
 	long int z;
 	long int max = 20365011074;
 
-	for (i = 0; i <= 50; i++)
+	for (i = 0; i < 50; i++)
 	{
 		if (x != max)
 			printf("%ld, ", x);
