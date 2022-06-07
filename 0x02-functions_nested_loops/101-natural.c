@@ -9,9 +9,9 @@
 int main(void)
 {
 	int i;
-	unsigned long z;
-	unsigned long y;
-	unsigned long  x;
+	unsigned long int z;
+	unsigned long int y;
+	unsigned long int x;
 
 	for (i = 0; i < 1024; ++i)
 	{
