@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet - Function prototype
+ * _islower - Function prototype
  * Description: Checks if a character is lowercase.
  * @c: The ascii character to be checked
  * Return: 1 if lowercase otherwise 0
