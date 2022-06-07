@@ -8,8 +8,8 @@
 int main(void)
 {
 	int i;
-	unsigned long int x = 1;
-	unsigned long int y = 2;
+	unsigned long int x = 0;
+	unsigned long int y = 1;
 	unsigned long int z;
 
 	for (i = 0; i < 98; i++)
