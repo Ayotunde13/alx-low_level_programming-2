@@ -9,8 +9,8 @@
 int main(void)
 {
 	int i;
-	int z = 0;
-	int y = 0;
+	unsigned long int z = 0;
+	unsigned long int y = 0;
 
 	for (i = 0; i < 1024; ++i)
 	{
@@ -20,7 +20,7 @@ int main(void)
 			y += i;
 	}
 
-	int x = z + y;
+	unsigned long int x = z + y;
 
 	printf("%lu\n", x);
 
