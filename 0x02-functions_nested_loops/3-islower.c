@@ -9,5 +9,6 @@
 int _islower(int c)
 {
 	int result = c >= 97 && c <= 122 ? 1 : 0;
-	return result;
+
+	return (result);
 }
