@@ -2,8 +2,9 @@
 
 /**
  * main - Program entry point
- * Description: Prints the numbers from 1 to 100, replacing multiples of 3 with Fizz,
- * multiples of 5 with Buzz, and multiples of both 3 and 5 with FizzBuzz.
+ * Description: Prints the numbers from 1 to 100, replacing multiples of 3
+ * with Fizz, multiples of 5 with Buzz, and multiples of both 3 and
+ * 5 with FizzBuzz.
  * Return: 0
  */
 int main(void)
