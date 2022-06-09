@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_square - Function prototype
  * Description: Prints a square of the specified size
