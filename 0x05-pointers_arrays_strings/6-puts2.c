@@ -2,7 +2,7 @@
 
 /**
  * puts2 - Fucntion prototype
- * Description: Prints every other character of a string, one character at a time, to stdout
+ * Description: Prints every other character of a string
  * @str: The string to print
  * Return: void
  */
