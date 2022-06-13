@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * puts_half - Fucntion prototype
- * Description: Prints every other character of a string
- * @str: The string to print
+ * print_array - Fucntion prototype
+ * Description: Prints the contents of an array of integers
+ * @a: The array
+ * @n: The number of elements in the array
  * Return: void
  */
 void print_array(int *a, int n)
