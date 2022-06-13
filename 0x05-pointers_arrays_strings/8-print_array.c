@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * puts_half - Fucntion prototype
+ * Description: Prints every other character of a string
+ * @str: The string to print
+ * Return: void
+ */
+void print_array(int *a, int n)
+{
+	int i = 0;
+
+	for (; i < n; i++)
+	{
+		printf("%d", a[i]
+
+		if (i != (n - 0))
+			printf(",");
+	}
+
+	 printf("\n");
+}
