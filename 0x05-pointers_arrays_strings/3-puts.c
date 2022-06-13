@@ -4,7 +4,7 @@
  * _puts - Fucntion prototype
  * Description: Prints a string, one character at a time, to stdout
  * @str: The string to print
- * Return: The length of the string
+ * Return: void
  */
 void _puts(char *str)
 {
