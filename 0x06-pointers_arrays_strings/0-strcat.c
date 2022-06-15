@@ -1,5 +1,4 @@
 #include "main.h"
-#include "string.h"
 
 /**
  * _strcat - Function prototype
@@ -12,7 +11,11 @@
 char *_strcat(char *dest, char *src)
 {
 	int i;
-	int x = strlen(dest);
+	int x;
+
+	for (x = 0; dest[x]; x++)
+	{
+	}
 
 	for (i = 0; dest[i]; i++)
 	{
