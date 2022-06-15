@@ -3,8 +3,8 @@
 /**
  * _strcat - Function prototype
  * Description: Concatenates two strings.
- * @dest: Pointer to the destination array, which should be large enough
- * to contain the concatenated resulting string
+ * @dest: Pointer to the destination array, which should be large
+ * enough to contain the concatenated resulting string
  * @src: Pointer to the null-terminated string to be appended to dest
  * Return: The pointer to the destination string.
  */
