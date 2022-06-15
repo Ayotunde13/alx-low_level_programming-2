@@ -21,10 +21,10 @@ char *_strcat(char *dest, char *src)
 	while (x >= 0)
 	{
 		*(dest + i) = *(src + x);
-		if((*src + y) == '\0')
+		if((*src + x) == '\0')
 			break;
+		i++;
 		x++;
-		y++;
 	}
 
 	return (dest);
