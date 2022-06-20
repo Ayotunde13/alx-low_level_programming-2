@@ -1,7 +1,8 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_chessboard - Function prototype
+ * print_diagsums - Function prototype
  * Description: Prints the sum of the two diagonals of a square matrix of integers
  * @param A pointer to the first element of the array
  * @size: The size of the array
