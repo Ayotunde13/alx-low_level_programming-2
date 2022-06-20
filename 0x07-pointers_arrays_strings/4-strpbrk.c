@@ -9,24 +9,19 @@
  * Return: Pointer to the byte in s that matches one of the bytes in accept
  * or NULL if no such byte is found
  */
-unsigned int _strspn(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-	int i;
-	int x;
-	int val = 0;
-
-	for (i = 0;; i++)
+	while (*s)
 	{
-		for (x = 0; accept[x] > '\0'; x++)
+		int i;
+
+		for (i = 0; accept[i]; i++)
 		{
-			if (s[i] != accept[x])
-				continue;
-			val++;
-			break;
+			if (*s == accept[i])
+				return (s);
 		}
-		if (accept[x] == '\0')
-			break;
+		s++;
 	}
 
-	return (val);
+	return (NULL);
 }
