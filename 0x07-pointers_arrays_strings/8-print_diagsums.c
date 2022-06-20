@@ -5,7 +5,7 @@
  * print_diagsums - Function prototype
  * Description: Prints the sum of the two diagonals of a square
  * matrix of integers
- * @param A pointer to the first element of the array
+ * @a: A pointer to the first element of the array
  * @size: The size of the array
  * Return: void
  */
