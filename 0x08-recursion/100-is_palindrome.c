@@ -24,7 +24,7 @@ int _is_palindrome(char *s, int x)
  */
 int is_palindrome(char *s)
 {
-	int len = strlen(s) - 1;
+	int len = strlen(s);
 
 	return (_is_palindrome(s, len - 1));
 }
