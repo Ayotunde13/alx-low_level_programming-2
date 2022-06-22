@@ -12,7 +12,7 @@ int _sqrt_recursion(int n)
 }
 
 /**
- *  _sqrt_recursion - Function prototype
+ *  _sqrt - Function prototype
  * Description: Computes the natural square root of a number
  * @n: The number to find the square root of
  * @x: The number to check if it's a square root of n
@@ -26,5 +26,5 @@ int _sqrt(int n, int x)
 	if ((x * x) > n)
 		return (-1);
 
-	return x * x == n ? x : _sqrt(n, x + 1);
+	return (x * x == n ? x : _sqrt(n, x + 1));
 }
