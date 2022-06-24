@@ -1,6 +1,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include "main.h"
+
+/**
+ * _isdigit - Fucntion prototype
+ * Description: Checks for a digit (0 through 9)
+ * @c: The character to be checked
+ * Return: 1 if the character is a digit otherwise 0
+ */
+int _isdigit(int c)
+{
+	int is_digit = c >= 48 && c <= 57 ? 1 : 0;
+
+	return (is_digit);
+}
 
 /**
  * main - program entry point
@@ -19,7 +33,7 @@ int main(const int argc, char const *argv)
 	{
 		for (x = 0; argv[i][x] != '\0'; x++)
 		{
-			if (!isdigit(argv[i][x]))
+			if (!_aisdigit(argv[i][x]))
 			{
 				printf("Error\n");
 				return (1);
