@@ -7,7 +7,7 @@
  * @argv: Array of strings arguments that were passed to the program
  * Return: 0
  */
-int main(const int argc, char* argv[])
+int main(const int argc, char const *argv[])
 {
 	int i;
 
