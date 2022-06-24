@@ -3,7 +3,8 @@
 
 /**
  * main - program entry point
- * Description: Prints the minimum number of coins to make change for an amount of money
+ * Description: Prints the minimum number of coins to make change for an amount
+ * of money
  * @argc: The number of arguments passed to the program
  * @argv: Array of strings arguments that were passed to the program
  * Return: 0 Success 1 Error
