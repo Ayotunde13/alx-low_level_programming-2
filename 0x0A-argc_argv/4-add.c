@@ -33,7 +33,7 @@ int main(const int argc, char const *argv)
 	{
 		for (x = 0; argv[i][x] != '\0'; x++)
 		{
-			if (!_aisdigit(argv[i][x]))
+			if (!_isdigit(argv[i][x]))
 			{
 				printf("Error\n");
 				return (1);
