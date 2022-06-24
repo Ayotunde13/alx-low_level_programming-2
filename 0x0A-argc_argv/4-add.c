@@ -9,7 +9,7 @@
  * @argv: Array of strings arguments that were passed to the program
  * Return: 0 if all the arguments are passed are numbers else 1
  */
-int main(const int argc, char const *argv
+int main(const int argc, char const *argv)
 {
 	int i;
 	int x;
