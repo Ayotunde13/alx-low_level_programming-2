@@ -1,20 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include "main.h"
-
-/**
- * _isdigit - Fucntion prototype
- * Description: Checks for a digit (0 through 9)
- * @c: The character to be checked
- * Return: 1 if the character is a digit otherwise 0
- */
-int _isdigit(int c)
-{
-	int is_digit = c >= 48 && c <= 57 ? 1 : 0;
-
-	return (is_digit);
-}
 
 /**
  * main - program entry point
@@ -23,7 +9,7 @@ int _isdigit(int c)
  * @argv: Array of strings arguments that were passed to the program
  * Return: 0 if all the arguments are passed are numbers else 1
  */
-int main(const int argc, char const *argv)
+int main(const int argc, char const *argv[])
 {
 	int i;
 	int x;
