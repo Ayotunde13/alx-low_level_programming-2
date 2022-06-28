@@ -6,8 +6,8 @@
  * Description: Returns a pointer to a new string that is a duplicate of
  * the string passed to it
  * @str: The string to be copied.
- * Return: A pointer to a newly allocated space in memory which contains a copy of
- * the string given as a parameter.
+ * Return: A pointer to a newly allocated space in memory which contains
+ * a copy of the string given as a parameter
  */
 char *_strdup(char *str)
 {
