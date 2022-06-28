@@ -1,3 +1,6 @@
+#include "main.h"
+#include <stdlib.h>
+
 /**
  * create_array - function prototype
  * Description: Creates an array of size `size` and fill it with `c`
@@ -14,7 +17,7 @@ char *create_array(unsigned int size, char c)
 
 	arr = malloc(size);
 
-	if (arr == NULL)
+	if (arr == 0)
     		return (0);
 
 	while (size--)
