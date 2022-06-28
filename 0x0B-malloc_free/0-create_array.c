@@ -12,9 +12,9 @@ char *create_array(unsigned int size, char c)
 	if (size == 0)
 		return (0);
 
-	arr = static_cast<char *>(malloc(size));
+	arr = malloc(size);
 
-	if (arr == nullptr)
+	if (arr == NULL)
     		return (0);
 
 	while (size--)
