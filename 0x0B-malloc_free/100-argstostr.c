@@ -11,10 +11,7 @@
 char *argstostr(int ac, char **av)
 {
 	char *s;
-	int i;
-	int x;
-	int z;
-	int cmpt;
+	int i, x, z, cmpt;
 
 	if (ac == 0)
 		return (0);
@@ -25,9 +22,7 @@ char *argstostr(int ac, char **av)
 			return (0);
 
 		for (z = 0; av[i][z] != '\0'; z++)
-		{
 			x++;
-		}
 		x++;
 	}
 
